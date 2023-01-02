@@ -59,12 +59,16 @@
                             Overview
                         </p>
                         <p class="projectSumarry">
-                            Stanza is a mobile app that serves bite size lyrics to users tinder style. Each lyric can be
-                            liked,
-                            shared, connected to your favorite streaming service, and more. The app also has multiple UI
-                            themes to choose from.
-                            Fall in love with the meanings behind new songs and the songs you listen to every day
-
+                            Stanza was planned around the idea of an app that served lyrics to the user and
+                            allowed them to view the song in their favorite music streaming app. The system architecture
+                            was then planned in order to make the app a reality. First a back end was made with endpoints to
+                            accommodate the requirements of the web and mobile app. The web app was made so admin could create and edit
+                            content. A mobile app was made for users to view, favorite, and flag content.
+                        </p>
+                        <p class="projectSumarry">
+                            Initially the project began with a front end engineer who I directed. Due to personal
+                            reasons
+                            the front end engineer had to leave and the front end was completed by me.
                         </p>
                         <a target="_blank"
                             href='https://play.google.com/store/apps/details?id=com.Stanza.Android&hl=en_US&gl=US'>
@@ -113,24 +117,31 @@
 
                     </div>
                     <p class="onScroll projectSumarry">
-                        The web app was designed for admin to easily sift through songs and identify lyrics and
-                        categorize them according to genre, category, and decade.
+                        The web app was designed for admin to easily sift through songs and identify lyrics to
+                        categorize according to genre, category, and decade. The UI was designed to be fluid and
+                        intuitive. Functionality was provided to allow edits, viewing, and deletion to already existing
+                        lyric items. Last we added a Dashboard that presented metrics that we tracked.
                         <br>
                         <br>
-                        The back end was designed to allow users to favorite and flag songs and to allow admin to add
-                        songs to build the database. Some other features include making third party API requests,
-                        keeping the API keys secure, tracking analytics, and more.
+                        The back end was made to serve both users (mobile app) and admin (web app). The back end
+                        had endpoints for users to favorite and flag songs. The web app
+                        connected to the backend to allow admin to add, edit, delete, and view lyrics. Some other
+                        features include making third party API requests, keeping the API keys secure, tracking
+                        analytics, and more.
 
                     </p>
                     <div class="onScroll">
                         <p class="subHeader">Notable Features</p>
                         <ul class="featureList">
+                            <li>Designed the architecture between the web app, back end, and mobile app</li>
                             <li>User authentication for multiple admin</li>
                             <li>A dashboard to display database analytics</li>
                             <li>Connection with spotify and genius api to serve admin with content to add to database
                             </li>
-                            <li>Ability to add, delete, edit, and read lyric data</li>
+                            <li>Ability to add, delete, edit, and read lyric items</li>
                             <li>GraphQL back end to handle all data requests</li>
+                            <li>Developed a way to economically(free) push updates</li>
+
 
 
                         </ul>
@@ -139,23 +150,27 @@
                         <p class="header">
                             Phone App
                         </p>
-                        <div class="center">
-                            <img class="picture" src="/assets/InPhoneStanzaHome.00bb0214.png">
+                        <div class="phoneVideo">
+                            <video width="100%" autoplay="autoplay" muted="" loop="true" style="border-style: none"
+                                title="Responsive Design - WordBank" controls="true">
+                                <source src="/assets/StanzaPhoneVideoDemo.03a35e0f.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                     <p class="onScroll projectSumarry">
-                        Stanza is a music discovery app that introduces you to new songs through lyrics. Search by
-                        genre, category, or decade. Discover your new favorite artist and listen immediately using your
-                        favorite music streaming service.
+                        The Stanza mobile app serves bite size lyrics to users tinder style. Each lyric can be
+                        liked, shared, and connected to your favorite streaming service. The app also has multiple
+                        UI themes and text sizes to choose from.
                     </p>
                     <div class="onScroll">
                         <p class="subHeader">Notable Features</p>
                         <ul class="featureList">
-                            <li>MongoDB local database was used to fetch data quickly</li>
-                            <li>favorite and flag lyrics through back end endpoint</li>
-                            <li>use of native share to share lyrics you love</li>
-                            <li>link to listen to the lyric's song on your favorite music player</li>
-                            <li>Different themes, different text sizes, explicit filtering, and notifications</li>
+                            <li>MongoDB(Realm) local database was serve content</li>
+                            <li>Favorite and flag lyrics through back end</li>
+                            <li>Use of native share to share songs you love</li>
+                            <li>Link to listen on your favorite music streaming app</li>
+                            <li>A selection of themes and text sizes</li>
+                            <li>Explicit lyric filtering, and notifications</li>
                         </ul>
                     </div>
                     <div class="bottomPage">
