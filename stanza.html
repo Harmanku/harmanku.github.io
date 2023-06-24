@@ -14,14 +14,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALJJREFUOE9jvLfyf+1/RoZqBgYGdgbSwM///xlaGe+u+v+DDM0wq36CDPgP412/fx3uBk1FTRT3wOX+MzBoKiHkUAzYdGATXJOfgx+KAbjkBrEB1gbWKF44euEoVu/h9MLnb58Z/vz5A9bEzMTMwMfDR6IBXz8z/P77G24APw8/aQaY65oz/IfGMCMjI8PJyydJM2CIRuPVu1cZGBkYwX7VUtZCiUZccpRnJkqyM+N/hlYA7r6UTU1SuocAAAAASUVORK5CYII=">
     <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
   <script type="module" crossorigin src="/assets/modulepreload-polyfill.c7c6310f.js"></script>
-  <script type="module" crossorigin src="/assets/project.fa0913ad.js"></script>
-  <link rel="stylesheet" href="/assets/project.16997290.css">
+  <script type="module" crossorigin src="/assets/project.d0f48518.js"></script>
+  <link rel="stylesheet" href="/assets/project.1b3b463b.css">
 </head>
 
 <body>
 
     <nav id="navbar">
-        <a href="/index.html" class="backButton">
+        <a href="#" onclick="window.close();return false;" class="backButton">
             Harman
         </a>
 
@@ -59,19 +59,15 @@
                             Overview
                         </p>
                         <p class="projectSumarry">
-                            Stanza is a
-                            music discovery app that presents its users with interesting bite-size lyrics. Users can
-                            share lyrics that they like with their friends and/or add it to their favorites. In addition
-                            to that, the app is integrated with popular music streaming platforms to allow users to
-                            listen to the full song on their favorite streaming service.
+                            Stanza is a dynamic music discovery app designed to provide users with captivating bite-size
+                            lyrics. With Stanza, users can explore intriguing snippets of lyrics, share their favorite
+                            lines with friends, and conveniently add them to their personal favorites collection. The
+                            app connects with popular music streaming platforms, allowing users to
+                            seamlessly transition from discovering lyrics to enjoying the full song on their preferred
+                            streaming service.
 
 
 
-                        </p>
-                        <p class="projectSumarry">
-                            Initially the project began with a front end engineer who I directed. Due to personal
-                            reasons,
-                            the front end engineer left and the front end was completed by me.
                         </p>
                         <a target="_blank"
                             href='https://play.google.com/store/apps/details?id=com.Stanza.Android&hl=en_US&gl=US'>
@@ -120,34 +116,35 @@
 
                     </div>
                     <p class="onScroll projectSumarry">
-                        The web app was designed for admin to easily sift through songs and identify lyrics to
-                        categorize according to genre, category, and decade. The UI was designed to be fluid and
-                        intuitive. Functionality was provided to allow editing, viewing, and deleting of pre-existing
-                        lyric items. Lastly, we added a Dashboard that presented the metrics that we tracked.
+                        The web app was developed to provide administrators with a streamlined
+                        interface for organizing songs and categorizing lyrics based on genre, category, and decade. The
+                        user interface was meticulously designed to ensure a fluid and intuitive experience, allowing
+                        administrators to efficiently sift through songs and identify relevant lyrics. The newly
+                        developed web app significantly boosted content output by over 200% compared to the client's
+                        previous admin tool.
                         <br>
                         <br>
-                        The back end was made to serve both users (mobile app) and admin (web app). The mobile app
-                        used back end endpoints to allow users to favorite and flag songs. The web app
-                        used back end endpoints to allow admin to add, edit, delete, and view lyric items. Some other
-                        features of the back end include making third party API requests, keeping the API keys secure,
-                        tracking
-                        analytics, and more.
+                        The back end of the project was designed to serve both users of the mobile app and
+                        administrators of the web app. The mobile app enhanced users' experience and engagement
+                        by allowing users to favorite and flag songs. For
+                        administrators, the web app leveraged back end endpoints to enable seamless management of lyric
+                        items including adding, editing, deleting, and viewing functionality.
 
                     </p>
                     <div class="onScroll">
                         <p class="subHeader">Notable Features</p>
                         <ul class="featureList">
                             <li>Designed the architecture between the web app, back end, and mobile app</li>
-                            <li>User authentication for multiple admin</li>
-                            <li>A dashboard to display database analytics</li>
-                            <li>Connection with spotify and genius api to serve admin with content to add to database
+                            <li>Implemented robust user authentication system to support multiple admins</li>
+                            <li>Created a comprehensive dashboard to display database analytics</li>
+                            <li>Established seamless integration with Spotify and Genius APIs, enabling admins to easily
+                                access and add content to the database</li>
+                            <li>Provided essential CRUD (Create, Read, Update, Delete) functionality for lyric items
                             </li>
-                            <li>Ability to add, delete, edit, and read lyric items</li>
-                            <li>GraphQL back end to handle all data requests</li>
-                            <li>Developed a way to economically(free) push updates</li>
-
-
-
+                            <li>Implemented GraphQL as the back-end technology to efficiently handle all data requests
+                            </li>
+                            <li>Devised a cost-effective (free) mechanism to push updates for the application</li>
+                            <li>Ensured secure storage of API keys within the back-end infrastructure</li>
                         </ul>
                     </div>
                     <div class="onScroll">
@@ -162,23 +159,24 @@
                         </div>
                     </div>
                     <p class="onScroll projectSumarry">
-                        The Stanza mobile app serves bite size lyrics to users tinder style. Each lyric can be
-                        liked, shared, and connected to their favorite streaming service. The app also has multiple
-                        UI themes and text sizes to choose from.
+                        The Stanza mobile app presents users with bite-size lyrics through a captivating Tinder-style
+                        interface. Users have the ability to engage with each lyric by liking, sharing, and seamlessly
+                        connecting it to their preferred streaming service. Furthermore, the app offers a range of
+                        customization options, including multiple UI themes and adjustable text sizes.
                     </p>
                     <div class="onScroll">
                         <p class="subHeader">Notable Features</p>
                         <ul class="featureList">
-                            <li>MongoDB(Realm) local database for content</li>
-                            <li>Favorite and flag lyrics through back end</li>
-                            <li>Use of native share to share the songs you love</li>
-                            <li>Link to listen on your favorite music streaming app</li>
-                            <li>A selection of themes and text sizes</li>
-                            <li>Explicit lyric filtering, and notifications</li>
+                            <li>MongoDB (Realm) utilized as a local database for content storage</li>
+                            <li>Seamless integration with back-end functionality to enable favoriting and flagging of lyrics</li>
+                            <li>Native share functionality for effortless sharing of beloved songs</li>
+                            <li>Direct links to listen to songs on preferred music streaming apps</li>
+                            <li>Diverse selection of themes and customizable text sizes</li>
+                            <li>Explicit lyric filtering and notifications for enhanced user experience</li>
                         </ul>
                     </div>
                     <div class="bottomPage">
-                        <a class="backButtonBottom" >Back</a>
+                        <a class="backButtonBottom">Back</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +185,7 @@
     </section>
 
 
-        
+
 
 
 
